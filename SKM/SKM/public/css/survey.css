@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 50px;
+    background-color: #1A1962;
+    color: #ffffff;
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.details {
+    text-align: left;
+    flex-shrink: 0;
+    line-height: 2.5;
+    font-size: 26px;
+    padding: 50px;
+    padding-top: 70px;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 50%;
+    max-width: 375px;
+    height: 480px;
+    background-color: #1A1962;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  width: 60%;
+  margin-right: 20%;
+  margin-top: 15px;
+}
+
+.form-container {
+  width: 50%; /* Mengubah lebar menjadi 60% */
+  margin-right: 20%; /* Mengubah margin kanan menjadi 20% */
+  margin-top: 15px;
+}
+
+#questionText {
+  font-size: 14px; /* Menambahkan ukuran font */
+  white-space: nowrap; /* Mencegah text wrap */
+}
+
+.form-container .mb-3 {
+  margin-bottom: 1rem;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-container select {
+  width: 100%;
+}
+
+.line {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.copyright-container {
+    position: fixed;
+    bottom: 8px;
+    left: 5px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.copyright {
+    font-size: 10px;
+    color:black;
+}
